@@ -4,5 +4,10 @@ This is the repository to hold the code for the tasks for the advent of code
 
 ## Day 1 
 (solved on 03.12.2024)\n
-Part1 solution:  2378066
-Part2 solution: 18934359
+    Part1 solution:  2378066
+    Part2 solution: 18934359
+
+## Day 2
+(solved on 05.12.2024)\n
+    Part1 solution: 252
+    Part2 solution: ???
