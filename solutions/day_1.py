@@ -66,3 +66,10 @@ if __name__ == "__main__":
         diffs.append(abs(a -b))
     print("Solution:", sum(diffs))
 
+    similarity_score = 0
+    for val in sorted_left:
+        if val in sorted_right:
+            similarity_score += sorted_right.count(val) * val
+    print("Similiarity score:", similarity_score)
+
+
