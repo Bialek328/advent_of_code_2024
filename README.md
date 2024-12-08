@@ -11,3 +11,8 @@ This is the repository to hold the code for the tasks for the advent of code
 (solved on 05.12.2024)\n
     Part1 solution: 252
     Part2 solution: 324
+
+## Day 3
+(solved on 08.12.2024)
+    Part1: 174561379
+    Part 2: ???
