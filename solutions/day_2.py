@@ -47,6 +47,14 @@ def check_ascending(input: list) -> bool:
             return False
     return res
 
+def check_removing_element(input: list) -> bool:
+    for idx in range(len(input)):
+        test_data = input.copy()
+        test_data.pop(idx)
+        if check_first_condition(test_data) and check_second_condition(test_data):
+            return True
+    return False
+
 if __name__ == "__main__":
     data = load_input(2)
     cleaned_data = clean_data(data)
@@ -57,5 +65,8 @@ if __name__ == "__main__":
     for line in data_list:
         if check_first_condition(line) and check_second_condition(line):
             counter += 1
+        else:
+            if check_removing_element(line):
+                counter += 1
     print("Solution: ", counter)
 
